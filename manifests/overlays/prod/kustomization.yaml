@@ -15,4 +15,4 @@ images:
 - name: cepgstapacr.azurecr.io/82034609
   newTag: "202410160453"
 - name: cepgstapacr.azurecr.io/cloud-sample
-  newTag: "202410160658"
+  newTag: "202410160931"
