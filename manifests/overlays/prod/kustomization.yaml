@@ -1,11 +1,11 @@
 configMapGenerator:
 - files:
   - application.yml
-  name: 82034609-configmap
+  name: "82034609-configmap"
 resources:
 - ../../base
 - pvc.yaml
-patches:
+patchesStrategicMerge:
 - deployment.yaml
 - ingress.yaml
 apiVersion: kustomize.config.k8s.io/v1beta1
