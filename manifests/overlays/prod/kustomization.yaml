@@ -14,5 +14,3 @@ namePrefix: prod-
 images:
 - name: cepgstapacr.azurecr.io/82034609
   newTag: "202410170056"
-- name: cepgstapacr.azurecr.io/cloud-sample
-  newTag: "202410160931"
